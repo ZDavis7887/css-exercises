@@ -4,6 +4,12 @@ html, body {
   height: 100%;
 }
 
+
+.header{
+  font-weight:bold;
+  font-size:20px
+}
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -20,7 +26,34 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:nowrap;
+  align-items:flex-start;
+  padding: 2%;
+  gap: 1em;
+
+  
 }
+
+.alert{
+  display:flex;
+  align-items: left;
+  justify-content:space-around;
+}
+
+
+.message{
+
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1em;
+  }
+
+  /* .message > div {
+    margin:6px;
+  } */
 
 .icon {
   color: royalblue;
@@ -41,11 +74,14 @@ body {
   color: #888;
   font-weight: 400;
   font-size: 16px;
-  height: 24px;
-  width: 24px;
+  font-size: 16px;
+  height: 20px;
+  width: 96px;
   display: flex;
+  padding: 1%;
   align-items: center;
   justify-content: center;
+
 }
 
 button {
